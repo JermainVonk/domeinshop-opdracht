@@ -10,19 +10,55 @@ Table of Contents:
         3.5 Footer
 ////////////////////////////////////////////////////////////////////////*/
 
-
+/*grijs #899CA0  donkergroen #1C2B32*/
 
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
 /*////////////////////////
     2. Typography
 ////////////////////////*/
+body{
+    font-family: "Poppins", sans-serif;
+
+}
+
+.header-title{
+    font-size: 80px;
+    color: #1C2B32;
+}
+
+/*.header-section button + input{*/
+/*    margin-left: -5px;*/
 
 
+button, input{
+    font-family: inherit;
+}
+
+button{
+    background-color: #1C2B32;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 0px 25px 25px 0;
+    padding: 20px;
+    margin-left: -5px;
+
+
+}
+input{
+    border-radius: 25px 0 0 25px;
+    background-color: transparent;
+    padding: 20px 75px 20px 20px;
+}
 
 /*////////////////////////
     3. Areas
@@ -31,13 +67,89 @@ Table of Contents:
 
 
 /*///////////// 3.1 Header /////////////*/
+header{
+    text-align: center;
+    background-image: url(/assets/images/mountains.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 
+}
+.header-section{
+    text-align: center;
+    padding: 100px 0 300px 0;
+    max-width: 1000vw;
 
+}
 
 /*///////////// 3.2 Testimonial /////////////*/
+form{
+    margin-top: 30px;
+}
+.main-section{
+    max-width: 1000px;
+    margin: 50px auto;
+
+}
+.main-section h1{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+.callcenter{
+    border-radius: 15px;
+    width: 100%;
+}
+.customer-service p{
+    font-size: 12px;
+    line-height: 2.5;
+}
+.contact{
+    background-color: #1C2B32;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 15px;
+    margin-top: 15px;
+}
+details > p{
+    border: 1px solid #899CA0;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: #899CA0;
+    color: white;
+}
+summary{
+    cursor: pointer;
+}
+.box-article{
+    position: relative;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    margin: 20px;
+    padding: 50px;
+    width: 100%;
+}
+.box-article p{
+    padding-left: 50px;
+}
+image{
+    border-radius: 50px;
+}
+.profile{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.quotation-mark{
+    position: absolute;
 
 
 
+}
 /*///////////// 3.3 Support /////////////*/
 
 
@@ -47,3 +159,10 @@ Table of Contents:
 
 
 /*///////////// 3.5 Footer /////////////*/
+.footer-section{
+    background-color: #1C2B32;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    padding: 20px;
+}
